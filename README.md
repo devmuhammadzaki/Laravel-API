@@ -1,4 +1,4 @@
-# UMS-RBAC-API (Teradevelopers)
+# UMS-RBAC-API
 
 UMS with RBAC (User Management System with Role-Based Access Control) API built with Laravel 10.
 
