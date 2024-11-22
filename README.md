@@ -1,16 +1,16 @@
-# Laravel-API (Teradevelopers)
+# UMS-RBAC-API (Teradevelopers)
 
-Laravel API-Development Backend task (RBAC) for Teradevelopers.
+UMS with RBAC (User Management System with Role-Based Access Control) API built with Laravel 10.
 
 ## Installation
 
 1. Download the code by clicking **Code**, **Download ZIP**. Or if you have Git install in your machine, you can run this in your terminal.
 
 ```
-git clone https://github.com/devmuhammadzaki/laravel-api.git
+git clone https://github.com/devmuhammadzaki/UMS-RBAC-API.git
 ```
 
-2. Change directory to your local copy of `laravel-api` in your terminal. Then install composer dependencies.
+2. Change directory to your local copy of `UMS-RBAC-API` in your terminal. Then install composer dependencies.
 
 ```
 composer install
@@ -25,7 +25,7 @@ cp .env.example .env
 4. Prepare a database. You can use this command.
 
 ```
-mysql -uroot -e "CREATE DATABASE laravel-api_db"
+mysql -uroot -e "CREATE DATABASE UMS-RBAC-API_db"
 ```
 
 If you have password for your database, you need to specify `-p` on the command.
@@ -36,7 +36,7 @@ If you have password for your database, you need to specify `-p` on the command.
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=laravel-api_db
+DB_DATABASE=UMS-RBAC-API_db
 DB_USERNAME=root
 DB_PASSWORD=
 ```
